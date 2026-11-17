@@ -1,0 +1,9 @@
+Comparison (test macro-F1 points),Average [95% CI],Bully,Sentiment,Emotion,Sarcasm
+Final model vs problem statement settings,"+5.32 [+3.28, +7.24] *",+3.29 *,+5.40 *,+9.47 *,+3.10
+Final model vs best train-only config,"+0.53 [-0.42, +1.49]",-0.09,+1.08,+1.39,-0.26
+Best train-only config vs problem statement settings,"+4.79 [+2.94, +6.56] *",+3.39 *,+4.32 *,+8.08 *,+3.37 *
+Class weights vs none,"+1.61 [+0.54, +2.68] *",+0.00,+1.72,+3.22 *,+1.49 *
+Interaction feature vs none,"-0.46 [-1.45, +0.49]",-0.37,-0.30,-0.45,-0.72
+Per-task gates + uncertainty vs shared gate + equal weights,"+0.55 [-0.26, +1.33]",+0.34,+0.69,+1.87,-0.72
+Per-task gates vs shared gate (PS features),"-0.18 [-0.91, +0.58]",-0.46,-0.76,+0.05,+0.44
+Uncertainty vs equal weights (PS features),"-0.12 [-0.29, +0.04]",-0.18,-0.34 *,+0.17,-0.14

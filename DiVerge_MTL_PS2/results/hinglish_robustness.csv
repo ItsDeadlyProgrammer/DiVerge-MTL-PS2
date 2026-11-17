@@ -1,0 +1,9 @@
+Variant,Subset,Test memes,Avg acc,Sarcasm acc
+DiVerge-MTL,Devanagari in text,14,57.14,73.81
+DiVerge-MTL,Roman only,721,54.72,64.22
+(c) no OCR augmentation,Devanagari in text,14,54.76,69.05
+(c) no OCR augmentation,Roman only,721,54.37,63.15
+"Best: CLIP-L/14 + class weights, per-task gates + uncertainty",Devanagari in text,14,57.14,71.43
+"Best: CLIP-L/14 + class weights, per-task gates + uncertainty",Roman only,721,57.29,65.79
+"Final: CLIP-L/14, train+val, 3-seed ensemble",Devanagari in text,14,58.93,71.43
+"Final: CLIP-L/14, train+val, 3-seed ensemble",Roman only,721,57.91,65.46

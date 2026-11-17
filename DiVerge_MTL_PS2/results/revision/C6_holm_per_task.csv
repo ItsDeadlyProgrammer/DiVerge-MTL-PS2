@@ -1,0 +1,33 @@
+label,task,diff,p,p_holm,survives
+Final model vs problem statement settings,bully,3.2862,0.029,0.725,False
+Final model vs problem statement settings,sentiment,5.42,0.011,0.319,False
+Final model vs problem statement settings,emotion,9.3221,0.0,0.0,True
+Final model vs problem statement settings,sarcasm,3.1137,0.0712,1.0,False
+Final model vs best train-only config,bully,-0.081,0.9062,1.0,False
+Final model vs best train-only config,sentiment,1.0773,0.3658,1.0,False
+Final model vs best train-only config,emotion,1.4144,0.1178,1.0,False
+Final model vs best train-only config,sarcasm,-0.2624,0.7706,1.0,False
+Best train-only config vs problem statement settings,bully,3.3671,0.0164,0.4592,False
+Best train-only config vs problem statement settings,sentiment,4.3428,0.021,0.567,False
+Best train-only config vs problem statement settings,emotion,7.9077,0.0002,0.0062,True
+Best train-only config vs problem statement settings,sarcasm,3.3761,0.0306,0.7296,False
+Class weights vs none,bully,0.0022,0.9822,1.0,False
+Class weights vs none,sentiment,1.7361,0.136,1.0,False
+Class weights vs none,emotion,3.1514,0.0304,0.7296,False
+Class weights vs none,sarcasm,1.4933,0.0248,0.6448,False
+Interaction feature vs none,bully,-0.3623,0.6312,1.0,False
+Interaction feature vs none,sentiment,-0.3006,0.7632,1.0,False
+Interaction feature vs none,emotion,-0.513,0.6378,1.0,False
+Interaction feature vs none,sarcasm,-0.738,0.432,1.0,False
+Per-task gates + uncertainty vs shared gate + equal weights,bully,0.3459,0.5424,1.0,False
+Per-task gates + uncertainty vs shared gate + equal weights,sentiment,0.6989,0.3812,1.0,False
+Per-task gates + uncertainty vs shared gate + equal weights,emotion,1.8192,0.054,1.0,False
+Per-task gates + uncertainty vs shared gate + equal weights,sarcasm,-0.7245,0.3782,1.0,False
+Per-task gates vs shared gate (PS features),bully,-0.4578,0.4148,1.0,False
+Per-task gates vs shared gate (PS features),sentiment,-0.7725,0.3858,1.0,False
+Per-task gates vs shared gate (PS features),emotion,0.0592,0.9348,1.0,False
+Per-task gates vs shared gate (PS features),sarcasm,0.4363,0.6078,1.0,False
+Uncertainty vs equal weights (PS features),bully,-0.1826,0.142,1.0,False
+Uncertainty vs equal weights (PS features),sentiment,-0.3466,0.0104,0.312,False
+Uncertainty vs equal weights (PS features),emotion,0.1694,0.2236,1.0,False
+Uncertainty vs equal weights (PS features),sarcasm,-0.14,0.557,1.0,False

@@ -1,0 +1,7 @@
+Task,Class,Test support,Variant,Class F1 (3-seed mean)
+emotion,Fear,17,with class weights,14.88
+emotion,Fear,17,without class weights,0.0
+emotion,Trust,7,with class weights,27.56
+emotion,Trust,7,without class weights,8.33
+sentiment,Positive,95,with class weights,52.53
+sentiment,Positive,95,without class weights,44.73

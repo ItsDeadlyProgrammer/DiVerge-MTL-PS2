@@ -1,0 +1,12 @@
+,"wall-clock (s, 3 seeds)",peak GPU memory (MB)
+DiVerge-MTL,111.5,159.4
+(a) shared fusion,133.4,99.9
+(b) equal weights,79.4,159.4
+(c) no OCR augmentation,116.7,159.4
+Image-only probe,143.5,52.1
+Text-only probe,100.8,52.1
+"DiVerge-MTL, σ-lr 1e-2",90.3,159.4
+"Best: CLIP-L/14 + class weights, per-task gates + uncertainty",49.7,304.2
+"same, without class weights",56.6,304.2
++ interaction feature,97.7,599.9
+shared gate + equal weights,33.4,155.7

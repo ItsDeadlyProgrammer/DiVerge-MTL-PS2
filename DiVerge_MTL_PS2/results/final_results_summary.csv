@@ -1,0 +1,8 @@
+Benchmark,Metric,Published,Source,Ours (final),Δ
+MultiBully · bully,accuracy,70.91,MultiBully paper (CLIP + FC),73.88,2.97
+MultiBully · sentiment,accuracy,59.8,MultiBully paper (CLIP + FC),60.41,0.61
+MultiBully · emotion,accuracy,29.6,MultiBully paper (CLIP + FC),31.84,2.24
+MultiBully · sarcasm,accuracy,63.59,MultiBully paper (CLIP + FC),65.58,1.99
+MultiBully · average,accuracy,55.97,MultiBully paper (CLIP + FC),57.93,1.95
+HatefulMemes,accuracy,77.35,Kapil & Ekbal (2025),81.41,4.06
+HatefulMemes,AUC,81.7,Kapil & Ekbal (2025),87.9,6.2

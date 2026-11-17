@@ -1,0 +1,2 @@
+Dataset,Config (chosen by CV),Test accuracy,Paper accuracy,Test 2nd metric,Paper 2nd metric,2nd metric,Test weighted-F1,Δ accuracy
+HatefulMemes,PS2 settings (lr 2e-5),81.41,77.35,87.9,81.7,AUC,81.19,4.06

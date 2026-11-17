@@ -1,0 +1,11 @@
+Case,Image,Text (first 90 chars),bully true/pred,sentiment true/pred,emotion true/pred,sarcasm true/pred
+Angry → predicted Sadness,4821.jpg,"*november every year* delhi and north india Ah shit, here we go again. SCOOPWHOOP.com",Nonbully / Nonbully,Negative / Negative,Angry / Sadness,No / No
+Angry → predicted Sadness,2759.jpg,"h-kaat daal tu kaat daal,callaghan ko tu kaat daal b-yeh kaatna waatna mujhse nhi hoga",Nonbully / Nonbully,Negative / Neutral,Angry / Sadness,No / No
+Sadness → predicted Angry,4126.jpg,"When you support BHARAT BANDH and someone says ,""Calm down,You're UNEMPLOYED"".You:",Bully / Bully,Negative / Negative,Sadness / Angry,No / No
+Sadness → predicted Angry,3874.jpg,"*when relatives send me follow request on Instagram*Me;saari umar hum,mar mar ke jee liye ",Bully / Bully,Negative / Negative,Sadness / Angry,Yes / Yes
+"Sarcastic, predicted not",2035.jpg,what i want what i also want,Nonbully / Nonbully,Positive / Neutral,Surprise / Anticipation,Yes / No
+"Sarcastic, predicted not",5117.jpg,Me:I Love you Mom... Mom:Sorry..i have a Husband ME,Nonbully / Nonbully,Neutral / Neutral,Surprise / Happiness,Yes / No
+"Not sarcastic, predicted sarcastic",1744.jpg,@indian.made arab swag :p,Nonbully / Bully,Neutral / Negative,Surprise / Ridicule,No / Yes
+Fear/Trust recovered by class weights,2485.jpg,*me not keeping dishes in the kitchen* Now this is an Avengers level threat,Nonbully / Nonbully,Negative / Neutral,Fear / Other,Yes / Yes
+Fear/Trust recovered by class weights,4933.jpg,my exams after plans coronavirus SCOOPWHOOP.com,Nonbully / Nonbully,Negative / Neutral,Fear / Fear,No / No
+Fear/Trust recovered by class weights,1099.jpg,holding her hand in public is just another way of saying you're proud to have her,Nonbully / Nonbully,Positive / Positive,Trust / Trust,No / No

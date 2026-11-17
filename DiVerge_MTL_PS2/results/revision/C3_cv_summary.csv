@@ -1,0 +1,5 @@
+system,bully_acc mean,bully_acc std,sentiment_acc mean,sentiment_acc std,emotion_acc mean,emotion_acc std,sarcasm_acc mean,sarcasm_acc std,avg_acc mean,avg_acc std,bully_f1 mean,bully_f1 std,sentiment_f1 mean,sentiment_f1 std,emotion_f1 mean,emotion_f1 std,sarcasm_f1 mean,sarcasm_f1 std,avg_f1 mean,avg_f1 std
+"Final config (DiVerge-MTL, CLIP-L/14)",74.01,0.86,60.85,0.54,29.82,0.82,64.73,0.99,57.35,0.39,73.96,0.87,57.66,1.5,25.89,0.65,62.51,1.04,55.01,0.23
+"Best config, single seed avg",73.23,1.36,60.28,0.66,28.71,0.6,64.59,0.92,56.71,0.53,73.15,1.39,57.21,1.43,25.17,1.29,62.44,1.34,54.49,0.57
+"CLIP+FC (authors' head), ViT-B/16",69.9,2.12,58.71,1.02,25.33,0.94,63.46,1.24,54.35,0.91,69.48,2.28,54.19,2.74,18.66,0.81,54.45,2.32,49.2,1.15
+"CLIP+FC (authors' head), ViT-L/14",70.52,1.36,61.27,2.0,27.97,1.48,63.59,1.51,55.84,1.1,69.57,1.67,56.53,3.23,21.54,1.19,59.65,1.27,51.82,1.4

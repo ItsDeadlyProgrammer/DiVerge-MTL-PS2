@@ -1,0 +1,5 @@
+Task,Classes,All copies agree (%),Pairwise agreement (%),Cohen's κ (pairs),Majority class (%),Final model test acc (%),Final config 5-fold CV acc (%),Model / pairwise agreement
+Bully,2,77.469,79.583,0.376,51.701,73.878,74.015,0.928
+Sentiment,3,69.136,71.667,0.362,42.585,60.408,60.849,0.843
+Emotion,10,34.568,37.5,0.271,15.782,31.837,29.822,0.849
+Sarcasm,2,52.16,56.875,0.149,60.0,65.578,64.727,1.153

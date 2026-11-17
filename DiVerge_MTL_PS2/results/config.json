@@ -1,0 +1,104 @@
+{
+  "PS": {
+    "features": "ps",
+    "mode": "gated",
+    "loss": "uncertainty",
+    "aug": true,
+    "interaction": false,
+    "class_weights": false,
+    "lr": 2e-05,
+    "sigma_lr": null,
+    "weight_decay": 0.01,
+    "hidden": 256,
+    "dropout": 0.1,
+    "batch": 32,
+    "warmup": 0.1,
+    "max_epochs": 100,
+    "patience": 10
+  },
+  "BEST": {
+    "features": "clip_l14",
+    "mode": "gated",
+    "loss": "uncertainty",
+    "aug": true,
+    "interaction": false,
+    "class_weights": true,
+    "lr": 0.0001,
+    "sigma_lr": null,
+    "weight_decay": 0.05,
+    "hidden": 256,
+    "dropout": 0.3,
+    "batch": 32,
+    "warmup": 0.1,
+    "max_epochs": 100,
+    "patience": 10
+  },
+  "labels": {
+    "bully": [
+      "Bully",
+      "Nonbully"
+    ],
+    "sentiment": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "emotion": [
+      "Angry",
+      "Anticipation",
+      "Disgust",
+      "Fear",
+      "Happiness",
+      "Other",
+      "Ridicule",
+      "Sadness",
+      "Surprise",
+      "Trust"
+    ],
+    "sarcasm": [
+      "No",
+      "Yes"
+    ]
+  },
+  "seeds": [
+    13,
+    42,
+    2026
+  ],
+  "cleaning": [
+    [
+      "Annotation rows in the official sheet",
+      5865
+    ],
+    [
+      "Rows with all four labels",
+      5854
+    ],
+    [
+      "Image not reachable",
+      -506
+    ],
+    [
+      "Image empty or unreadable",
+      -50
+    ],
+    [
+      "Same image annotated more than once (byte-identical)",
+      -347
+    ],
+    [
+      "Re-saved copies (near-identical image and text)",
+      -52
+    ],
+    [
+      "Usable unique memes",
+      4899
+    ]
+  ],
+  "consistency": {
+    "bully": 77.46913580246914,
+    "sentiment": 69.1358024691358,
+    "emotion": 34.5679012345679,
+    "sarcasm": 52.160493827160494
+  }
+}

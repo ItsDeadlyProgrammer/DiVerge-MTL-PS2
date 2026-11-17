@@ -1,0 +1,6 @@
+Model,Bully acc,Sentiment acc,Emotion acc,Sarcasm acc,Avg acc,Avg macro-F1,Avg acc std (seeds)
+"MultiBully paper, CLIP+FC (their split, uncleaned)",70.91,59.8,29.6,63.59,55.97,,
+"CLIP+FC (authors' head), ViT-B/16",69.98,57.41,26.98,60.73,53.78,48.84,0.32
+"CLIP+FC (authors' head), ViT-L/14",69.71,59.59,29.93,63.54,55.69,51.97,0.15
+"Best: CLIP-L/14 + class weights, per-task gates + uncertainty",73.97,59.37,29.93,65.9,57.29,55.87,0.24
+"Final: CLIP-L/14, train+val, 3-seed ensemble",73.88,60.41,31.84,65.58,57.93,56.4,

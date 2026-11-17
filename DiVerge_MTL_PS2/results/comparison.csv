@@ -1,0 +1,6 @@
+,"Paper, CLIP + FC","Ours, PS settings","Ours, best (train-only)","Ours, final",Majority class,Copies agree (%)
+bully,70.91,70.57,73.97,73.88,51.7,77.47
+sentiment,59.8,57.55,59.37,60.41,42.59,69.14
+emotion,29.6,26.53,29.93,31.84,15.78,34.57
+sarcasm,63.59,64.4,65.9,65.58,60.0,52.16
+average,55.97,54.76,57.29,57.93,42.52,58.34

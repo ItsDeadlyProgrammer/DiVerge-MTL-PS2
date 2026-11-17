@@ -1,0 +1,6 @@
+Variant,Avg acc,Avg macro-F1,Bully F1,Sentiment F1,Emotion F1,Sarcasm F1,val F1
+DiVerge-MTL,54.76,51.08,70.51,53.29,19.26,61.25,
+"LoRA-mBERT text + CLIP-L/14 image, best settings",55.36,53.91,71.57,55.55,25.54,62.97,54.46
+"Best: CLIP-L/14 + class weights, per-task gates + uncertainty",57.29,55.87,73.9,57.61,27.34,64.62,
+"LoRA-mBERT text + CLIP-L/14 image, train+val ensemble",56.29,54.66,72.42,56.77,26.42,63.03,
+"Final: CLIP-L/14, train+val, 3-seed ensemble",57.93,56.4,73.8,58.69,28.73,64.36,

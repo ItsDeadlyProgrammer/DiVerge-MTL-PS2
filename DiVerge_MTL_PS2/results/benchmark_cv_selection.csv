@@ -1,0 +1,9 @@
+Dataset,Config,cv_acc,cv_auc,cv_wf1
+HatefulMemes,PS2 settings (lr 2e-5),79.25,85.92,79.02
+HatefulMemes,"+ lr 1e-4, hidden 512, dropout 0.3, class weights",79.28,85.77,79.23
+HatefulMemes,+ interaction feature,79.28,85.69,79.23
+HatefulMemes,"+ interaction, label smoothing, EMA, noise",78.01,85.79,78.27
+MultiOFF,PS2 settings (lr 2e-5),63.85,68.75,63.18
+MultiOFF,"+ lr 1e-4, hidden 512, dropout 0.3, class weights",64.19,70.12,64.21
+MultiOFF,+ interaction feature,62.5,68.04,62.7
+MultiOFF,"+ interaction, label smoothing, EMA, noise",60.3,68.09,60.66
